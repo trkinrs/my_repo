@@ -1,1 +1,7 @@
 header: My Header
+
+_schema:
+  header:
+    type: text_field
+    label: Main header
+    help: Maximum 20 chars for you main SEO result
