@@ -5,6 +5,11 @@ products:
 - Lemon
 background_image: assets/images/background.jpg
 logo:
+galery:
+- image: assets/images/apple.jpg
+  alt: Wild apple
+- image: assets/images/lemon.jpg
+  alt: Fresh lemon
 _schema:
   header:
     type: text_field
@@ -21,3 +26,10 @@ _schema:
   logo:
     type: image_field
     label: Logo
+  galery:
+  - alt:
+      type: text_field
+      help: Required for SEO
+    image:
+      type: image_field
+      help: Use full size images
