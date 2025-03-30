@@ -1,7 +1,23 @@
+---
 header: My Header
-
+products:
+- Apple
+- Lemon
+background_image: assets/images/background.jpg
+logo:
 _schema:
   header:
     type: text_field
     label: Main header
     help: Maximum 20 chars for you main SEO result
+  products:
+  - type: text_field
+    label: Product name
+    help: Maximum two words
+  background_image:
+    type: image_field
+    label: Top background image
+    help: Choose one without much colors
+  logo:
+    type: image_field
+    label: Logo
