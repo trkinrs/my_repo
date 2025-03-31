@@ -29,7 +29,9 @@ _schema:
   galery:
   - alt:
       type: text_field
+      label: Galery image alt
       help: Required for SEO
     image:
       type: image_field
-      help: Use full size images
+      label: Galery image
+      help: Image will be automatically scalled
